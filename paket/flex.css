@@ -1,0 +1,246 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "EB Garamond", serif;
+  background: #eae7e76e;
+}
+
+/*=============================================
+=                     Header                  =
+=============================================*/
+
+header {
+  background: #222222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  font-family: "EB Garamond", serif;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+
+nav ul {
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  height: 80px;
+}
+
+nav li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  width: 175px;
+  text-align: center;
+}
+
+nav a {
+  position: relative;
+  height: 100%;
+  margin: 20px;
+  color: #eae7e7;
+  text-decoration: none;
+  width: 175px;
+}
+
+nav a:hover {
+  border: 0.5px solid #eae7e7;
+  padding: 10px;
+}
+
+nav a :visited {
+  color: #eae7e7;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.links {
+  margin-top: 25px;
+}
+
+#headericon {
+  margin: 0;
+  padding: 0;
+  width: 128px;
+  height: 80px;
+}
+
+nav img {
+  margin: 0;
+  padding-top: 3px;
+  height: 75px;
+}
+
+nav img:hover {
+  height: 80px;
+  padding-top: 0;
+}
+
+#home {
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+#home:hover {
+  border: none;
+  padding: 0px;
+}
+
+/*=============================================
+=                     Main                    =
+=============================================*/
+
+main {
+  position: relative;
+  top: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+main div {
+  font-family: "EB Garamond", serif;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+#backgroundimg {
+  position: fixed;
+  float: left;
+  top: -25%;
+  left: 0%;
+  max-width: 100%;
+  object-fit: cover;
+  margin-left: 0;
+  padding: 0;
+  filter: opacity(80%);
+  z-index: -1;
+}
+
+.packageimg {
+  width: 100%;
+}
+
+.vinjetter {
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  border: 0.9px solid white;
+  border-radius: 2px;
+  float: left;
+  font-size: 1.2em;
+  width: 40%;
+  margin-right: 30px;
+  height: 400px;
+}
+
+p {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+#firstpackage {
+  margin-left: 40px;
+}
+
+#content {
+  position: relative;
+  float: left;
+  background: #222222ea;
+  color: #eae7e7;
+  margin: auto;
+  padding: 25px;
+  left: 110px;
+  top: 40px;
+  max-width: 80%;
+  border-radius: 2px;
+}
+
+.textbox {
+  font-size: 1.1em;
+  margin-top: 0;
+}
+
+.boxes {
+  position: relative;
+  color: #eae7e7;
+}
+
+.boxes :visited {
+  color: #eae7e7;
+}
+
+.boxes :hover {
+  transform: scale(1.1);
+  z-index: 1;
+  transition: 1.5s;
+}
+
+/*============================================= = Footer = =============================================*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: #222222;
+  width: 100%;
+}
+
+footer div {
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+}
+
+footer a {
+  display: block;
+  float: left;
+  list-style: none;
+  padding: 20px;
+  position: relative;
+  right: 50%;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer img:hover {
+  width: 45px;
+}

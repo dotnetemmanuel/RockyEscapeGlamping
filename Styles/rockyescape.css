@@ -1,0 +1,273 @@
+body {
+  height: 100vh;
+  /*
+  background: #172022;*/
+  background: #222222;
+  margin: 0;
+  overflow: hidden;
+}
+
+/*=============================================
+=                     Header                  =
+=============================================*/
+
+header {
+  background: #222222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  font-family: "EB Garamond", serif;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+
+nav ul {
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  height: 80px;
+}
+
+nav li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  width: 175px;
+  text-align: center;
+}
+
+nav a {
+  position: relative;
+  height: 100%;
+  margin: 20px;
+  color: #eae7e7;
+  text-decoration: none;
+  width: 175px;
+}
+
+nav a:hover {
+  border: 0.5px solid #eae7e7;
+  padding: 10px;
+}
+
+nav a :visited {
+  color: #eae7e7;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.links {
+  margin-top: 25px;
+}
+
+#headericon {
+  margin: 0;
+  padding: 0;
+  width: 128px;
+  height: 80px;
+}
+
+nav img {
+  margin: 0;
+  padding-top: 3px;
+  height: 75px;
+}
+
+nav img:hover {
+  height: 80px;
+  padding-top: 0;
+}
+
+#home {
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+#home:hover {
+  border: none;
+  padding: 0px;
+}
+
+/*=============================================
+=                     Main                    =
+=============================================*/
+
+main {
+  position: relative;
+  top: 80px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+main div {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  padding: 0;
+  filter: opacity(80%);
+  z-index: -1;
+}
+
+section {
+  position: relative;
+  float: left;
+  top: 28%;
+  left: 25%;
+  color: #eae7e7;
+  font-family: "EB Garamond", serif;
+  height: 100vh;
+}
+
+p {
+  color: #eae7e7;
+  position: relative;
+  float: left;
+  top: -30px;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-left: 200px;
+  line-height: 40px;
+  padding: 0;
+  text-align: justify;
+  width: 35%;
+}
+
+main h1 {
+  position: fixed;
+  border: 3px solid #eae7e7;
+  font-weight: 500;
+  font-size: 4em;
+  margin: 0;
+  padding: 50px;
+  color: #eae7e7;
+}
+
+#background1::after {
+  background-image: url(../images/grandteton.png);
+  float: left;
+  filter: opacity(50%);
+  opacity: 100%;
+  width: 100%;
+  top: -35%;
+  left: -25.3%;
+  height: 84%;
+}
+#background2::after {
+  float: left;
+  filter: opacity(50%);
+  opacity: 100%;
+  width: 100%;
+  top: 500px;
+  left: -25%;
+}
+
+#background3::after {
+  background-image: url(../images/grandteton.png);
+  filter: opacity(50%);
+  opacity: 100%;
+  width: 100%;
+  top: -32%;
+  left: -25.3%;
+  height: 84%;
+}
+
+#background4::after {
+  float: left;
+  filter: opacity(50%);
+  opacity: 100%;
+  width: 100%;
+  left: -25%;
+}
+
+#background2 {
+  height: 110%;
+}
+
+#background4 {
+  height: 60%;
+}
+
+.info {
+  float: left;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+}
+
+/*============================================= = Footer = =============================================*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: #222222;
+  width: 100%;
+}
+
+footer div {
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+}
+
+footer a {
+  display: block;
+  float: left;
+  list-style: none;
+  padding: 20px;
+  position: relative;
+  right: 50%;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer img:hover {
+  width: 45px;
+}

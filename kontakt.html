@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <link rel="icon" type="image/ico" href="rockyfavicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styles/kontakt.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <title>Kontakt</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="links">
+            <a href="rockyescape.html">Rocky Escape</a>
+          </li>
+          <li class="links"><a href="glamping.html">Glamping</a></li>
+          <li id="headericon">
+            <a href="index.html" id="home"
+              ><img src="images/RockyEscapeLogoFinal.png" alt="logo" id="logo"
+            /></a>
+          </li>
+          <li class="links"><a href="paket.html">Paketresor</a></li>
+          <li class="links"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <img src="images/ForestKontakt.png" alt="tent" />
+      </div>
+
+      <div class="boxes">
+        <div id="form">
+          <h1>Kontakta oss för frågor och bokning</h1>
+          <form
+            action="mailto:emmanuel.duchene@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input type="text" placeholder="Namn" required name="namn" />
+            <br />
+            <br />
+            <input type="email" placeholder="E-post" required name="epost" />
+            <br />
+            <br />
+            <input type="number" placeholder="Nummer" required name="telefon" />
+            <br />
+            <br />
+            <input
+              type="text"
+              id="date"
+              placeholder="Önskat ankomstdatum"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+              name="datum"
+            />
+            <br />
+            <br />
+            <textarea
+              name="meddelande"
+              id="message"
+              cols="30"
+              rows="15"
+              placeholder="Meddelande"
+            ></textarea>
+            <br />
+
+            <input id="submit" type="submit" value="Skicka" />
+          </form>
+        </div>
+
+        <div id="info">
+          <p id="intro">
+            Rocky Escape är ett litet familjeföretag som strävar efter att ge
+            kunderna den bästa upplevelsen. Därför har vi inget automatiskt
+            bokningssystem. Skicka gärna en bokningsförfrågan med önskat datum
+            via formuläret. Vi återkommer alltid inom 24 timmar med svar till
+            eventuella frågor eller bokningsbekräftelse. Det går även jättebra
+            att nå oss på telefon.
+          </p>
+          <h2>Telefon</h2>
+          <p>+46 65 877 94 53</p>
+          <h2>Adress</h2>
+          <p>
+            Rocky Escape Glamping <br />
+            Teton County, WY, USA
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.4476346139354!2d-110.71359868452971!3d43.84654984792429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDUwJzQ3LjYiTiAxMTDCsDQyJzQxLjEiVw!5e0!3m2!1sen!2sse!4v1572288102060!5m2!1sen!2sse"
+            width="400"
+            height="300"
+            style="border:0;"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img
+            src="images/icons8-facebook-old-50.png"
+            alt="facebook"
+            class="footerimage"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img
+            src="images/icons8-instagram-50.png"
+            alt="instgram"
+            class="footerimage"
+        /></a>
+        <a href="https://www.tripadvisor.com" target="_blank"
+          ><img
+            src="images/TripAdvisor.png"
+            alt="tripadvisor"
+            class="footerimage"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

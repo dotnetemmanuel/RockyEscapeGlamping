@@ -1,0 +1,456 @@
+body {
+  height: 100vh;
+  /*
+  background: #172022;*/
+  background: #eae7e7;
+  margin: 0;
+}
+
+/*=============================================
+=                     Header                  =
+=============================================*/
+
+header {
+  background: #222222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  font-family: "EB Garamond", serif;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+
+nav ul {
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  height: 80px;
+}
+
+nav li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  width: 175px;
+  text-align: center;
+}
+
+nav a {
+  position: relative;
+  height: 100%;
+  margin: 20px;
+  color: #eae7e7;
+  text-decoration: none;
+  width: 175px;
+}
+
+nav a:hover {
+  border: 0.5px solid #eae7e7;
+  padding: 10px;
+}
+
+nav a :visited {
+  color: #eae7e7;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.links {
+  margin-top: 25px;
+}
+
+#headericon {
+  margin: 0;
+  padding: 0;
+  width: 128px;
+  height: 80px;
+}
+
+nav img {
+  margin: 0;
+  padding-top: 3px;
+  height: 75px;
+}
+
+nav img:hover {
+  height: 80px;
+  padding-top: 0;
+}
+
+#home {
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+#home:hover {
+  border: none;
+  padding: 0px;
+}
+
+/*=============================================
+=                     Main                    =
+=============================================*/
+
+main {
+  position: relative;
+  top: 80px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  padding: 0;
+  filter: opacity(100%);
+  z-index: -2;
+}
+
+form {
+  margin-top: 12%;
+  padding-bottom: 0;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 0;
+
+  color: #222222;
+  opacity: 80%;
+  font-family: "EB Garamond", serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  float: left;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin: 5px;
+  margin-left: 0;
+  margin-bottom: 3px;
+}
+
+input {
+  color: #222222;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  padding: 1%;
+  width: 64%;
+  border-radius: 2px;
+  border: none;
+}
+
+iframe {
+  position: relative;
+  width: 100%;
+  border: none;
+}
+
+p {
+  font-size: 1.1em;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+textarea {
+  border-radius: 2px;
+  border: none;
+  color: #222222;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  padding: 1%;
+  margin-bottom: 2%;
+  width: 64%;
+}
+
+#date {
+  color: #222222;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+#form {
+  border: white 2px solid;
+  border-radius: 2px;
+  position: absolute;
+  float: left;
+  left: -3%;
+  margin-left: 10%;
+  margin-top: 2.5%;
+  padding-top: 0;
+  padding: 25px;
+  width: 35%;
+}
+
+#info {
+  background: rgba(255, 255, 255, 0.911);
+  color: #222222;
+  position: absolute;
+  border-radius: 2px;
+  margin-left: 50%;
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+  width: 40%;
+  margin-top: 2.5%;
+  padding: 25px;
+  padding-top: 0;
+  line-height: 1.4em;
+  text-align: justify;
+  height: 611px;
+}
+
+#intro {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 25px;
+}
+
+#submit {
+  background: white;
+  border: white 1px solid;
+  border-radius: 2px;
+  color: #222222;
+  font-family: "EB Garamond", serif;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 15px;
+  width: 70px;
+  transition-duration: 0.7s;
+}
+
+#submit:hover {
+  background: none;
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 1em;
+  font-weight: 500;
+  transition-duration: 0.7s;
+}
+
+::placeholder {
+  color: #222222;
+  font-family: "EB Garamond", serif;
+  text-transform: initial;
+}
+
+@media only screen and (max-width: 833px) {
+  .boxes {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 150%;
+  }
+  main img {
+    height: 100%;
+    z-index: -2;
+  }
+
+  h1 {
+    background: rgba(255, 255, 255, 0.911);
+    padding: 5px;
+    border-radius: 2px;
+    color: #222222;
+  }
+
+  h3 {
+    position: relative;
+    padding-left: 0px;
+    margin-left: 0;
+    left: -15px;
+  }
+  iframe {
+    position: relative;
+    top: -150px;
+    margin: 0;
+    width: 100%;
+  }
+
+  p {
+    position: relative;
+    padding-left: 0px;
+    margin-left: 0;
+    left: -15px;
+  }
+
+  #form {
+    left: 16%;
+    margin-bottom: 0;
+    position: relative;
+    top: 150px;
+    width: 270px;
+  }
+
+  #info {
+    right: 24%;
+    position: relative;
+    top: 820px;
+    height: 800px;
+    margin-top: 0;
+    padding-top: 5px;
+    text-align: left;
+    width: 274px;
+  }
+
+  #intro {
+    position: relative;
+    text-align: justify;
+    padding-left: 0px;
+    margin-left: 0;
+    left: -15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .boxes {
+    height: 1650px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+
+    z-index: -1;
+  }
+
+  body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+  }
+
+  main img {
+    width: 100%;
+    z-index: -2;
+  }
+
+  h1 {
+    background: rgba(255, 255, 255, 0.911);
+    padding: 5px;
+    border-radius: 2px;
+    color: #222222;
+  }
+
+  h3 {
+    position: relative;
+    padding-left: 0px;
+    margin-left: 0;
+    left: -15px;
+    top: -600px;
+  }
+  iframe {
+    position: relative;
+    top: -600px;
+    margin: 0;
+    width: 100%;
+  }
+
+  p {
+    position: relative;
+    padding-left: 0px;
+    margin-left: 0;
+    left: -15px;
+    top: -600px;
+  }
+
+  #form {
+    left: -11px;
+    margin-bottom: 0;
+    position: relative;
+    top: 170px;
+    width: 270px;
+  }
+
+  #info {
+    left: -162px;
+    position: relative;
+    top: 840px;
+    height: 670px;
+    margin-top: 0;
+    padding-top: 5px;
+    text-align: left;
+    width: 274px;
+    font-size: 0.9em;
+  }
+
+  #intro {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0px;
+    top: -620px;
+    width: 300px;
+  }
+}
+
+/*=============================================
+                  = Footer =
+=============================================*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: #222222;
+  width: 100%;
+}
+
+footer div {
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+}
+
+footer a {
+  display: block;
+  float: left;
+  list-style: none;
+  padding: 20px;
+  position: relative;
+  right: 50%;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer img:hover {
+  width: 45px;
+}
